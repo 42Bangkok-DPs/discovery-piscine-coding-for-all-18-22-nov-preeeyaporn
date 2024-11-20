@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def ตารางสูตรคูณ(จำนวน):
   for i in range(1, 11):
     ผลลัพธ์ = จำนวน * i
