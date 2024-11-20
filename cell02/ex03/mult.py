@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 def multiply_numbers():
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
