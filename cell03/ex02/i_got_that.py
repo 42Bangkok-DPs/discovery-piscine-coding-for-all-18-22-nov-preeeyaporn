@@ -1,10 +1,7 @@
 #!/usr/bin/env python
-def main():
-    while True:
-        user_input = input("What you gotta say? ")
-        if user_input == "STOP":
-            break
-        print("I got that! Anything else?")
-
-if __name__ == "__main__":
-    main()
+user_input = input("What you gotta say? ")
+while True:
+    if user_input != "STOP":
+        user_input = input("I got that! Anything else? : ")
+    elif user_input == "STOP":
+        break
